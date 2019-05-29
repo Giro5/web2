@@ -1,0 +1,8 @@
+body {
+    margin: 0;
+}
+
+.top_head {
+    background: linear-gradient(90deg, #ee3d1b, #fa592b);
+    height: 50px;
+}
