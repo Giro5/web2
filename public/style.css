@@ -1,8 +1,42 @@
-body {
+* {
     margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.site {
+    width: 100%;
+}
+
+.site>div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.header {
+    height: 210px;
+    background: #f9f9f9;
+    box-shadow: 0 5px 0 #f2f2f2;
+    display: flex;
+    flex-direction: column;
 }
 
 .top_head {
-    background: linear-gradient(90deg, #ee3d1b, #fa592b);
-    height: 50px;
+    background: linear-gradient(#e93315, #fa5b31, #f44c23);
+    height: 80px;
+}
+
+.mid_head {
+    background: linear-gradient(#fbf2d3, #eee5c7);
+    height: 66px;
+    box-shadow: 0 4px 0 #efe7cd;
+}
+
+.bot_head {
+    height: 64px;
 }
