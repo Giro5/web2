@@ -26,9 +26,21 @@ html, body {
     flex-direction: column;
 }
 
+.header>div {
+    display: flex;
+    justify-content: center;
+}
+
 .top_head {
-    background: linear-gradient(#e93315, #fa5b31, #f44c23);
+    background: linear-gradient(#f44c23, #fa5b31, #e93315);
     height: 80px;
+}
+
+.topnav {
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .mid_head {
