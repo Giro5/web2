@@ -76,13 +76,11 @@ html, body {
 .logo {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-evenly; */
 }
 
 .nav {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-around; */
 }
 
 #logoimg {
@@ -111,6 +109,10 @@ html, body {
     color: white;
     margin: auto;
     user-select: none;
+}
+
+.nav>div:active {
+    color: gray;
 }
 
 .basket {
@@ -143,6 +145,7 @@ html, body {
     position: absolute;
     transform: translate(23px, -7px);
     user-select: none;
+    color: white;
 }
 
 .mid_head {
@@ -151,6 +154,69 @@ html, body {
     box-shadow: 0 4px 0 #efe7cd;
 }
 
+.midnav {
+    width: 960px;
+    display: flex;
+}
+
+.midnav>div {
+    padding: 0 16px;
+    margin: auto;
+    font-family: Terminal_Dosis-Book;
+    font-size: 12pt;
+    color: #7d7253;
+    user-select: none;
+    cursor: pointer;
+    display: inline-block;
+    min-width: 78px;
+    text-align: center;
+    z-index: 10;
+}
+
+.navdd {
+    display: none;
+    text-align: left;
+}
+
+.navp:hover {
+    background: linear-gradient(#f0e4b8, #fbf2d3);
+    padding-top: 23px;
+    padding-bottom: 20px;
+}
+
+.navp:hover>.navdd {
+    display: inherit;
+}
+
+.navdd div {
+    float: none;
+    position: relative;
+    color: #777777;
+    font-family: Terminal_Dosis-Book;
+    font-size: 11pt;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+.navdd>div:hover {
+    background: #f54922;
+    color: white;
+}
+
 .bot_head {
     height: 64px;
+}
+
+.botnav {
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lside {
+    display: flex;
+    flex-direction: row;
 }
