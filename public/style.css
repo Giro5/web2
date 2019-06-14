@@ -88,6 +88,7 @@ html, body {
 #logoimg {
     margin: auto;
     user-select: none;
+    cursor: pointer;
 }
 
 #thename {
@@ -96,6 +97,7 @@ html, body {
     color: white;
     padding: 13px 7px;
     user-select: none;
+    cursor: pointer;
 }
 
 .nav>div {
