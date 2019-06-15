@@ -67,7 +67,7 @@ html, body {
 }
 
 .topnav {
-    width: 960px;
+    width: 940px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -155,7 +155,7 @@ html, body {
 }
 
 .midnav {
-    width: 960px;
+    width: 940px;
     display: flex;
 }
 
@@ -211,7 +211,7 @@ html, body {
 }
 
 .botnav {
-    width: 960px;
+    width: 940px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -281,4 +281,78 @@ html, body {
     padding: 0 6px;
     background: white;
     cursor: pointer;
+}
+
+.banner {
+    width: 940px;
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+    border-bottom: #91cdcb 6px solid;
+}
+
+.infobanner {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #91d2d0, #9bd7d5);
+    height: 66px;
+}
+
+.dots {
+    margin: auto 27px;
+    display: flex;
+    flex-direction: row;
+}
+
+.dots>div {
+    border: white 2px solid;
+    border-radius: 100%;
+    margin: 3px;
+    width: 5px;
+    height: 5px;
+    cursor: pointer;
+}
+
+.dots>div:hover {
+    background: white;
+}
+
+#dot2 {
+    background: white;
+}
+
+.camp {
+    display: flex;
+    flex-direction: row;
+    margin-right: 25px;
+}
+
+.camp>div {
+    margin: auto 0;
+}
+
+.gambino {
+    padding: 0 10px;
+    font-family: Terminal_Dosis-Book;
+    font-size: 12pt;
+    color: white;
+}
+
+.purchase {
+    padding: 12px 7px;
+    font-family: Telegrafico;
+    font-size: 10pt;
+    color: white;
+    border-radius: 5px;
+    background: linear-gradient(#beecea, #9fdcda 5%, #8ac6c4);
+    border: #76c2bf 1px solid;
+    text-shadow: gray -1px -1px 1px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.purchase:active {
+    background: linear-gradient(#fe8853, #fd5f37 5%, #e84621);
+    border: #e66d4b 1px solid;
 }
